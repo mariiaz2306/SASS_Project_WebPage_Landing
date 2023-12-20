@@ -1,0 +1,488 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.free_shipping_ad {
+  display: flex;
+  padding-left: 35%;
+  align-items: center;
+  height: 7vh;
+  font-size: 1em;
+  width: 100vw;
+  background-color: #50806B;
+  color: #FFF;
+}
+.free_shipping_ad h3 {
+  width: 50%;
+}
+.free_shipping_ad .first {
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  margin-left: 22%;
+}
+.free_shipping_ad .second {
+  font-size: 1em;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  margin-left: 2%;
+}
+
+nav {
+  height: 10vh;
+  z-index: 999;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+}
+nav .logo {
+  width: 7%;
+  margin-right: 10%;
+  margin-left: 7%;
+}
+nav .nav_bar_container {
+  width: 60vw;
+  display: flex;
+  justify-content: space-between;
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+}
+nav .nav_bar_container ul {
+  list-style: none;
+  text-decoration: none;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .seach {
+  width: 20vw;
+  display: flex;
+  align-items: center;
+}
+nav .seach span {
+  color: #979797;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  margin-right: 10px;
+}
+nav .seach img {
+  margin-right: 10px;
+}
+
+main {
+  height: 60vh;
+  background-color: #E8EDDE;
+  margin-bottom: 30%;
+}
+main .lopuhi {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .lopuhi .right {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .green {
+  background-color: #50806B;
+  width: 100vw;
+  height: 10%;
+}
+main .passion_plants {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  background: rgba(80, 128, 107, 0.2);
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  height: 100%;
+  width: 40%;
+}
+main .passion_plants h1 {
+  margin-top: 10%;
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 2.4px;
+  margin-bottom: 10%;
+}
+main .passion_plants p {
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 20%;
+}
+main .passion_plants button {
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  height: auto;
+  padding: 24px 56px;
+  border-radius: 20px;
+  background: #FFF;
+  color: #343434;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.shop-categories {
+  max-width: 100vw;
+  margin: 0 auto;
+  margin-bottom: 10%;
+}
+.shop-categories h1 {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  color: main-text-color-black;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 30vw;
+  margin-left: 5%;
+}
+.shop-categories hr {
+  border-bottom: 1px solid #000;
+  width: 90%;
+  margin: 5% 5%;
+}
+.shop-categories .category-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10vw, 1fr));
+  gap: 20px;
+  margin: 3% 3%;
+}
+.shop-categories .category-items img {
+  width: 15vw;
+}
+.shop-categories .category-items a {
+  color: #343434;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3.2px;
+  text-transform: uppercase;
+  margin-left: 30%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1200px) {
+  .shop-categories h1 {
+    font-size: 2rem;
+    width: 100%;
+  }
+}
+.best_selling {
+  max-width: 100vw;
+  margin: 0 auto;
+  margin-bottom: 10%;
+}
+.best_selling .heading {
+  margin-right: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.best_selling h1 {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  color: main-text-color-black;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 30vw;
+  margin-left: 5%;
+}
+.best_selling p {
+  color: main-text-color-black;
+  text-align: right;
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.7px;
+  text-transform: uppercase;
+}
+.best_selling hr {
+  border-bottom: 1px solid #000;
+  width: 90%;
+  margin: 5% 5%;
+}
+.best_selling .category-plants {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr));
+  gap: 40px;
+  margin: 5% 5%;
+}
+.best_selling .category-plants img {
+  width: 28vw;
+  margin-bottom: 3%;
+}
+.best_selling .category-plants button {
+  width: 100%;
+  height: 20%;
+  border: none;
+  cursor: pointer;
+  color: #FFF;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 8px;
+  background: #50806B;
+  box-shadow: 0px 8px 23px 0px rgba(80, 107, 82, 0.13);
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1200px) {
+  .shop-categories h1 {
+    font-size: 2rem;
+    width: 100%;
+  }
+}
+.hottest_plants {
+  max-width: 100vw;
+  margin: 0 auto;
+  margin-bottom: 10%;
+  background-color: #E8EDDE;
+}
+.hottest_plants .heading {
+  margin-right: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hottest_plants h1 {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  color: main-text-color-black;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 30vw;
+  margin-left: 5%;
+  margin-top: 10%;
+}
+.hottest_plants p {
+  color: main-text-color-black;
+  text-align: right;
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.7px;
+  text-transform: uppercase;
+  margin-top: 7%;
+}
+.hottest_plants hr {
+  border-bottom: 1px solid #000;
+  width: 90%;
+  margin: 5% 5%;
+}
+.hottest_plants .plants_variety {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr));
+  gap: 40px;
+  margin: 5% 5%;
+}
+.hottest_plants .plants_variety div {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 3% 3%;
+  border-radius: 16px;
+  margin-bottom: 5%;
+}
+.hottest_plants .plants_variety div h3 {
+  color: #343434;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.hottest_plants .plants_variety div h4 {
+  color: #343434;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 5%;
+}
+.hottest_plants .plants_variety div img {
+  width: auto;
+  margin-bottom: 3%;
+}
+.hottest_plants .plants_variety div button {
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  color: #FFF;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2em;
+  padding: 3% 7%;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 8px;
+  background: #50806B;
+  box-shadow: 0px 8px 23px 0px rgba(80, 107, 82, 0.13);
+  margin-bottom: 5%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1200px) {
+  .shop-categories h1 {
+    font-size: 2rem;
+    width: 100%;
+  }
+}
+.ferntastic_deals {
+  max-width: 100vw;
+  margin: 0 auto;
+  margin-bottom: 10%;
+}
+.ferntastic_deals h1 {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  color: main-text-color-black;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 30vw;
+  margin-left: 5%;
+}
+.ferntastic_deals hr {
+  border-bottom: 1px solid #000;
+  width: 90%;
+  margin: 5% 5%;
+}
+.ferntastic_deals .deals_variety {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr));
+  gap: 40px;
+  margin: 5% 5%;
+}
+.ferntastic_deals .deals_variety div {
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  margin-bottom: 5%;
+  border-radius: 16px;
+  box-shadow: 0px 8px 23px 0px rgba(80, 107, 82, 0.13);
+  padding: 3% 3%;
+}
+.ferntastic_deals .deals_variety div img {
+  width: auto;
+  margin-bottom: 3%;
+}
+.ferntastic_deals .deals_variety div h3 {
+  color: main-text-color-black;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.7px;
+}
+.ferntastic_deals .deals_variety div .reduced_price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.ferntastic_deals .deals_variety div span {
+  color: #343434;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.ferntastic_deals .deals_variety div button {
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  color: #FFF;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2em;
+  padding: 3% 7%;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 8px;
+  background: #50806B;
+  box-shadow: 0px 8px 23px 0px rgba(80, 107, 82, 0.13);
+  margin-bottom: 5%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1200px) {
+  .shop-categories h1 {
+    font-size: 2rem;
+    width: 100%;
+  }
+}
+.testimonials {
+  display: flex;
+  width: 100vw;
+  height: 70vh;
+  background-color: #E8EDDE;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10%;
+}
+.testimonials .heads {
+  width: 30%;
+}
+.testimonials .heads h1 {
+  color: #000000;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Poppins", sans-serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -2.4px;
+  margin-bottom: 3%;
+}
+.testimonials .heads h3 {
+  color: #000000;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+  margin-bottom: 3%;
+}
+.testimonials .recommends {
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=app.css.map */

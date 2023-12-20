@@ -1,0 +1,21 @@
+@import "variables";
+@import "mixin";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import "components/navbar";
+@import "components/main";
+@import "components/shop_by_category";
+@import "components/best_selling";
+@import "components/hottest_plants";
+@import "components/ferntastic_deals";
+@import "components/testimonials";
+
+
+
+
+

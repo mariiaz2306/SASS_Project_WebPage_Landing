@@ -1,0 +1,71 @@
+//ferntastic Deals
+
+.ferntastic_deals {
+@include eachContainerFeatures;
+
+    h1 {
+ @include headerFeatures;
+    }
+
+
+
+    hr {
+  @include hr;
+    }
+
+    .deals_variety {
+ @include gridItem;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            border-radius: 16px;
+            margin-bottom: 5%;
+            border-radius: 16px;
+            box-shadow: 0px 8px 23px 0px rgba(80, 107, 82, 0.13);
+            padding: 3% 3%;
+
+            img {
+                width: auto;
+                margin-bottom: 3%;
+            }
+
+            h3 {
+                color: main-text-color-black;
+                font-family: $secondary-font;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 21.7px;
+            }
+
+            .reduced_price {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+
+            span {
+                color: $main-text-color-black;
+                font-family: $secondary-font;
+                font-size: 2em;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+
+            button {
+               @include greenButton;
+            }
+        }
+
+    }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1200px) {
+    .shop-categories h1 {
+        font-size: 2rem;
+        width: 100%;
+    }
+}
